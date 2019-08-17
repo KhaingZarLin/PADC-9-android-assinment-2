@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/dubai_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:textColor="#398AD7"
+            android:layout_marginLeft="90dp"
+            android:textSize="15dp"
+            android:text="@string/dubai"
+            android:id="@+id/txt_dub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="-100dp"
+            android:text="@string/title_date" />
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignTop="@+id/dubai_title"
+            android:src="@drawable/ic_bookmark_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_below="@+id/dubai_title"
+        android:orientation="horizontal"
+        android:id="@+id/ll_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="@string/lower"
+            android:id="@+id/txt_lower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recomend" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_price"
+        android:layout_marginTop="0dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <RelativeLayout
+        android:background="#398AD7"
+        android:layout_below="@+id/recyclerview"
+        android:orientation="horizontal"
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:paddingTop="15dp"
+            android:paddingLeft="35dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="@string/total_charge"
+            android:id="@+id/txt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#FFFFFF"
+            android:textColor="#1392D3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/select_filter"
+            android:layout_below="@+id/txt_total"
+            android:layout_width="400dp"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

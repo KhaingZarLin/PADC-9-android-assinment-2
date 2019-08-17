@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">CarApplication</string>
+    <string name="dubai">DUBAI</string>
+    <string name="title_date">Apri 3,12pm-Apr  6,12 pm</string>
+    <string name="lower">LOWEST PRICE</string>
+    <string name="distance">DISTANCE</string>
+    <string name="recomend">RECOMMENDED</string>
+    <string name="ch1">C$36</string>
+    <string name="ch2">C$40</string>
+    <string name="ch3">$1417</string>
+    <string name="brandname">AVIS</string>
+    <string name="economy">Economy</string>
+    <string name="model_ch">Chevrolet Spark</string>
+    <string name="date_from">Apr 3,12pm  _____________________  Apr6,12pm</string>
+    <string name="pick_up">Pick-up</string>
+    <string name="drop_off">Drop-off</string>
+    <string name="airport">Non Airport</string>
+    <string name="terminal">In Terminal</string>
+    <string name="total_charge">C$31-C$1,417 per day,incl.taxes fees</string>
+    <string name="select_filter">2 Select Filters</string>
+    <string name="audi_a5">Audi A5</string>
+    <string name="luxury">Luxury Car</string>
+    <string name="audi">Audi A5 Sportback or similar</string>
+    <string name="cad_per">CAD per day,</string>
+    <string name="inc">incl.taxes  fees</string>
+    <string name="book">BOOK</string>
+    <string name="offer">Offer Details</string>
+    <string name="auto">Automatic</string>
+    <string name="air_condition">Air Conditioning</string>
+    <string name="convertable">Convertable</string>
+    <string name="p1">4</string>
+    <string name="b1">1</string>
+    <string name="rent1">4</string>
+    <string name="p2">5</string>
+    <string name="b2">1</string>
+    <string name="rent2">2/4</string>
+
+</resources>
